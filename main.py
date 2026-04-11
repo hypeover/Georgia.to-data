@@ -13,12 +13,14 @@ for place in places:
         continue
     place_details = json.loads(place_request.text)
     object = {
+        'id': place['id'],
         'lat': place['latitude'],
         'lon': place['longitude'],
         'thumbnail': place['thumbnail'],
         'url': place_details['url'],
         'types': place_details['types'],
-        'title': codecs.decode(place_details['title'], 'unicode-escape')
+        'title': codecs.decode(place_details['title'], 'unicode-escape'),
+        'fav': False
     }
     data.append(object)
 
