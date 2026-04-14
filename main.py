@@ -19,7 +19,7 @@ for place in tqdm(places, desc="Collecting places..."):
     place_details = json.loads(place_request.text)
 
     obj = {
-        'id': place['id'],
+        'placeid': place['id'],
         'lat': place['latitude'],
         'lon': place['longitude'],
         'thumbnail': place['thumbnail'],
