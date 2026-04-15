@@ -29,3 +29,10 @@ Make sure you have Python 3 installed, then run:
 ```
 
 After a short while, the data.json file will appear in the project folder.
+
+This project is non-commercial and created for educational and personal use only.
+
+I do not claim any ownership over the original data sourced from Georgia.to
+. All place information, names, and related content belong to their respective owners.
+
+This project is not affiliated with or endorsed by Georgia.to.
